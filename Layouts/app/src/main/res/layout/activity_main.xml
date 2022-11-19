@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="494dp">
+
+        <RadioButton
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Relative Layout" />
+
+        <RadioButton
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Linear Layout" />
+
+        <RadioButton
+            android:id="@+id/r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grid Layout" />
+
+        <RadioButton
+            android:id="@+id/r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Table Layout" />
+        <RadioButton
+            android:id="@+id/r5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frame Layout" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="410dp"
+        android:onClick="clickfun"
+        android:text="Button"
+        />
+
+</RelativeLayout>
